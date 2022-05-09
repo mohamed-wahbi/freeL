@@ -1,0 +1,306 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.img-icon{
+    margin-left: 65px;
+    margin-top: 0px;
+    width: 216px;
+    height: 48px;
+    border: 3px solid #dfd8d84a;
+    border-radius: 10px;
+}
+ #navbarNav{
+    
+    font-family: 'Source Serif Pro', serif;
+    margin-left: 90px;
+    font-size: 20px; 
+}
+.seconct{
+
+    margin-right: 33px;
+    text-decoration: none;
+    color: #407E5C;
+    font-size: 19px;
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: bold;
+    font-style: italic;
+}
+.img-f{
+    background-image: url(footer2.png);
+    background-repeat: no-repeat;
+    background-size: 1532px;
+    background-position-y: 173px;
+}
+#back_footer{
+    background-color: #4d5e7fc9;
+    width: 100%;
+    height: 435px;
+    background-image: url(footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-position: center;
+}
+#card-pizza{
+    background-image: url(pizza.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-img-top{transition: 0.8s;}
+.card-img-top:hover{
+    width: 170px;
+    height: 380px;
+}
+
+@media screen and (min-width:729px) and (max-width:980px) {
+ #a{
+   
+    margin-right: 2px !important;
+    }
+    #b{
+        width: 271px !important;
+    margin-right: 2px !important;
+    }
+    #c{
+        width: 177px !important;
+    margin-right: 2px !important;
+    }
+    #d{
+        width: 220px !important;
+        margin-right: 0px !important;
+        padding-left: 4px !important;
+     
+    }
+    #contentd{
+   
+    left: 0px !important;
+    top: 62px !important;
+    font-size: 16px !important;
+    }
+
+    
+}
+@media screen and (min-width:617px) and (max-width: 728px) {
+    #a{
+        margin-left: 115px !important;
+        text-align: center !important;
+    
+    }
+    #b{
+        width: 170px !important;
+        display: inline-block !important;
+        height: 190px ;
+        margin-right: 0px !important;
+        margin-left: 55px !important;
+    }
+    #c{
+        width: 141px !important;
+        display: inline-block !important;
+        height: 190px !important;
+        margin-right: 20px !important;
+    }
+    #d{
+        width: 155px !important;
+        display: inline-block !important;
+        height: 190px;
+        margin-right: 0px !important;
+    }
+    #inligne{
+        display: inline !important;
+       }
+}
+ @media  screen and (min-width:500px) and (max-width:616px) {
+   #inligne{
+    display: inline !important;
+   }
+ #a{
+    width: 350px !important;
+    display: inline-block;
+    height: 190px;
+    margin-right: 0px !important;
+    margin-left: 75px !important;
+    text-align: center !important;
+    margin-top: 25px !important;
+ }
+ #b{
+    width: 140px !important;
+    display: inline-block;
+    height: 190px !important;
+    margin-right: 0px !important;
+    margin: 15px !important;
+ }
+ #c{
+    width: 144px !important;
+    display: inline-block;
+    height: 190px;
+    margin-right: 0px !important;
+ }
+ #d{
+    width: 140px !important;
+    display: inline-block;
+    height: 220px !important;
+    margin-right: 0px !important;
+ }
+
+    }
+    @media screen and (min-width:992px) and (max-width:1380px) {
+        #navbarNav{
+            font-size: 12px !important;
+            margin: 0 !important;
+        }
+    }
+    @media screen and (min-width:0px) and (max-width:580px) {
+        #img_icon{
+            margin: 0px !important;
+        }
+        #inligne{
+            display: inline !important;
+           }
+           #a{
+            width: 100% !important;
+            display: inline-block !important;
+            height: 190px !important;
+            margin-right: 0px !important;
+            text-align: center !important;
+            margin: 0px !important;
+           }
+  #b1{
+    width: 80% !important;
+    position: relative !important;
+    left: 30px !important;
+    top: 20px !important ;
+    font-size: 16px !important;
+    font-family: emoji !important;
+        }
+      #c{
+            width: 100% !important;
+            display: inline-block !important;
+            height: 155px !important;
+            margin-right: 0px !important;
+            text-align: center !important;
+            margin-left: 20px !important;
+        }
+      #d{
+            width: 100% !important;
+    height: 161px !important ;
+    text-align: center !important;
+        }
+       #contentd{
+            width: 81% !important;
+    left: 19px !important;
+    top: 63px !important;
+        }
+        #b{
+            display: inline !important;
+            height: 190px !important;
+            margin-right: 0px !important;
+            width: 100% !important;
+            text-align: center !important;
+        }
+        #content-center{
+            padding-left: 0px !important;
+        }
+    }
+
+@media screen and (min-width:0px) and (max-width:840px) {
+    
+    #titre{
+        width: auto !important;
+    }
+    h5.card-title{
+        font-size: 30px !important;
+    }
+    #titre-card{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    #p-card{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    p.card-text{
+        font-size: 25px !important;
+        width: auto !important;
+    }
+    #btn-card{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:770px) {
+     div.btn-group{
+    
+        width: auto !important;
+
+        margin-right:0 !important;
+        display: flex !important;
+        justify-content: center !important;
+     }
+     .chompi{
+        width: 100% !important;
+        display: flex !important;
+        justify-content: center !important;
+     }
+     h5.card-body{
+        text-align: center !important;
+     }
+     div.col-md-8{
+         padding-left: 0px !important;
+     }
+     div.card-body{
+         text-align: center !important;
+     }
+}
+
+@media screen and (min-width:0px) and (max-width:768px) {
+    .card-img-top{
+        width: inherit !important;
+        height: inherit !important;
+    }
+   #col{
+       width: auto !important;
+   }
+#col-card{
+    margin: 0px !important;
+}
+#width-button{
+    height: 40px !important;
+    width: 100px !important;
+}
+#text{
+    text-align: center !important;
+    font-size: 15px !important;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
