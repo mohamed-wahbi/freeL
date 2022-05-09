@@ -203,6 +203,25 @@
         #content-center{
             padding-left: 0px !important;
         }
+#text-width1{
+    width: 100% !important;
+    margin-left: 0px !important;
+    max-height: auto !important;
+}
+#text-width2{
+    width: 100% !important;
+    margin-left: 0px !important;
+    max-height: auto !important;
+}
+
+
+
+
+
+
+
+
+
     }
 
 @media screen and (min-width:0px) and (max-width:840px) {
@@ -285,3 +304,4 @@
 }
 
 }
+
