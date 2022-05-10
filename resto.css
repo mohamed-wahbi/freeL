@@ -156,30 +156,7 @@
         #img_icon{
             margin: 0px !important;
         }
-        #label{
-            font-size: 8px !important;
-            width: 29px !important;
-            height: 30px  !important;
-        }
-        #label2{
-            font-size: 9px !important;
-            width: 0px !important;
-            height: 30px !important;
-        }
-        #label3{
-            font-size: 9px !important;
-            width: 0px !important;
-            height: 30px !important;
-        }
-        #label4{
-            font-size: 7px !important;
-            width: 7px !important;
-            height: 30px !important;
-        }
-        #btn-g{
-    margin-top: 50px !important;
-    width: 300px !important;
-        }
+    
  
         #imgcard1{
             width: 300px !important;
@@ -377,33 +354,24 @@
         width: 300px !important;
 
     }
-#btn-g{
-    border: 1px solid #404c65 !important;
-    border-radius: 6px !important;
-    margin-top: 50px !important;
-    width: 90% !important;
-    margin: 20px !important;
+
 }
+.bi-share::before{
+    width: 28px;
+    content: "\f52e";
+    height: 28px;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 50%;
+    background: white;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.bi-heart::before{
+    width: 28px;
+    height: 28px;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 50%;
+    background: white; 
+}
