@@ -295,7 +295,7 @@
 }
 #text{
     text-align: center !important;
-    font-size: 15px !important;
+    font-size: 10px !important;
 }
 #row{
     margin-left: 0px !important;
@@ -321,11 +321,12 @@
         display: inline-block !important;
         width: 350px !important;
     }
-       #col{
+    #col{
         width: 100% !important;
         display: inline-flex !important;
         justify-content: center !important;
         align-items: center !important;
     }
 }
+
 
