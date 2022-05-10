@@ -157,10 +157,10 @@
             margin: 0px !important;
         }
         #imgcard1{
-            width: 300px !important;
+            width: 50% !important;
         }
         #imgcard2{
-            width: 280px !important;
+            width: 50% !important;
 
         }
         #ABC{
@@ -346,10 +346,10 @@
         align-items: center !important;
     }
       #imgcard1{
-            width: 300px !important;
+            width: 50% !important;
         }
         #imgcard2{
-            width: 300px !important;
+            width: 50% !important;
 
         }
 }
