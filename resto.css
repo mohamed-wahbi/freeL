@@ -156,19 +156,14 @@
         #img_icon{
             margin: 0px !important;
         }
-        #services0{
-           
-            justify-content: center !important;
-            align-content: center !important;
-                display: inline !important;
-               margin: 0px !important;
+        #btn-g{
+            border: 1px solid #404c65 !important;
+            border-radius: 6px !important;
+            margin-top: 50px !important;
+            width: 90% !important;
+            margin: 20px !important;
         }
-         #services{
-        font-size: 20px !important;
-        text-align: center !important;
-        margin: 0px !important;
-        width: 100% !important;
-    }
+ 
         #imgcard1{
             width: 300px !important;
         }
@@ -365,17 +360,33 @@
         width: 300px !important;
 
     }
-    #services{
-        font-size: 20px !important;
-        text-align: center !important;
-        margin: 0px !important;
-        width: 100% !important;
-    }
-      #services0{
-           
-            justify-content: center !important;
-            align-content: center !important;
-                display: inline !important;
-               margin: 0px !important;
-        }
+#btn-g{
+    border: 1px solid #404c65 !important;
+    border-radius: 6px !important;
+    margin-top: 50px !important;
+    width: 90% !important;
+    margin: 20px !important;
 }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
