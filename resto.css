@@ -345,5 +345,12 @@
         justify-content: center !important;
         align-items: center !important;
     }
+      #imgcard1{
+            width: 300px !important;
+        }
+        #imgcard2{
+            width: 300px !important;
+
+        }
 }
 
