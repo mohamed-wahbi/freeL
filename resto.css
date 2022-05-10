@@ -156,11 +156,15 @@
         #img_icon{
             margin: 0px !important;
         }
+        #services{
+            font-size: 30px !important;
+            width: 280px !important;
+        }
         #imgcard1{
-            width: 50% !important;
+            width: 300px !important;
         }
         #imgcard2{
-            width: 50% !important;
+            width: 300px !important;
 
         }
         #ABC{
@@ -345,12 +349,15 @@
         justify-content: center !important;
         align-items: center !important;
     }
-      #imgcard1{
-            width: 50% !important;
-        }
-        #imgcard2{
-            width: 50% !important;
+    #imgcard1{
+        width: 300px !important;
+    }
+    #imgcard2{
+        width: 300px !important;
 
-        }
+    }
+    #services{
+        font-size: 30px !important;
+        width: 280px !important;
+    }
 }
-
