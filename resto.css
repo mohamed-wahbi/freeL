@@ -321,5 +321,11 @@
         display: inline-block !important;
         width: 350px !important;
     }
+       #col{
+        width: 100% !important;
+        display: inline-flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
 }
 
