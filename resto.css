@@ -162,8 +162,9 @@
             align-content: center !important;
         }
         #services{
-            font-size: 30px !important;
-            width: 280px !important;
+            font-size: 20px !important;
+        width: 210px !important;
+        text-align: center !important;
         }
         #imgcard1{
             width: 300px !important;
@@ -362,8 +363,9 @@
 
     }
     #services{
-        font-size: 30px !important;
-        width: 280px !important;
+        font-size: 20px !important;
+        width: 210px !important;
+        text-align: center !important;
     }
     #services0{
         display:flex !important;
@@ -371,25 +373,3 @@
         align-content: center !important;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
