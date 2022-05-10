@@ -156,6 +156,11 @@
         #img_icon{
             margin: 0px !important;
         }
+        #services0{
+            display:flex !important;
+            justify-content: center !important;
+            align-content: center !important;
+        }
         #services{
             font-size: 30px !important;
             width: 280px !important;
@@ -360,4 +365,31 @@
         font-size: 30px !important;
         width: 280px !important;
     }
+    #services0{
+        display:flex !important;
+        justify-content: center !important;
+        align-content: center !important;
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
