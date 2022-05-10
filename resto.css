@@ -304,6 +304,7 @@
 }
 
 }
+
 @media screen and (min-width:0px) and (max-width:350px) {
 
     #ABC{
@@ -312,6 +313,13 @@
         justify-content: center !important;
         align-items: center !important;
     }
-    
+    #cardabc{
+        width: 350px !important;
+
+    }
+    #card{
+        display: inline-block !important;
+        width: 350px !important;
+    }
 }
 
