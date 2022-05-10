@@ -157,15 +157,18 @@
             margin: 0px !important;
         }
         #services0{
-            display:flex !important;
+           
             justify-content: center !important;
             align-content: center !important;
+                display: inline !important;
+               margin: 0px !important;
         }
-        #services{
-            font-size: 20px !important;
-        width: 210px !important;
+         #services{
+        font-size: 20px !important;
         text-align: center !important;
-        }
+        margin: 0px !important;
+        width: 100% !important;
+    }
         #imgcard1{
             width: 300px !important;
         }
@@ -364,12 +367,15 @@
     }
     #services{
         font-size: 20px !important;
-        width: 210px !important;
         text-align: center !important;
+        margin: 0px !important;
+        width: 100% !important;
     }
-    #services0{
-        display:flex !important;
-        justify-content: center !important;
-        align-content: center !important;
-    }
+      #services0{
+           
+            justify-content: center !important;
+            align-content: center !important;
+                display: inline !important;
+               margin: 0px !important;
+        }
 }
