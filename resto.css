@@ -156,6 +156,13 @@
         #img_icon{
             margin: 0px !important;
         }
+        #imgcard1{
+            width: 300px !important;
+        }
+        #imgcard2{
+            width: 280px !important;
+
+        }
         #ABC{
             background: white !important;
     background-image: url(fleur.png) !important;
@@ -339,3 +346,4 @@
         align-items: center !important;
     }
 }
+
