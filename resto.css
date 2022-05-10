@@ -156,10 +156,6 @@
         #img_icon{
             margin: 0px !important;
         }
-        #cardabc{
-            width: 3850px !important;
-    
-        }
         #inligne{
             display: inline !important;
            }
@@ -318,7 +314,7 @@
         align-items: center !important;
     }
     #cardabc{
-        width: 3450px !important;
+        width: 280px !important;
 
     }
     #card{
