@@ -8,7 +8,6 @@
     margin-top: 0px;
     width: 216px;
     height: 48px;
-    border: 3px solid #dfd8d84a;
     border-radius: 10px;
 }
  #navbarNav{
@@ -375,3 +374,41 @@
     border-radius: 50%;
     background: white; 
 }
+
+
+.c .stars{
+    height: 150px;
+    width: 500px;
+    text-align: center;
+}
+.stars input {
+    display: none;
+}
+.stars label{
+    font-size: 20px;
+    color: lightgray;
+    text-shadow: 1px 1px #bbb;
+    float: right;
+  
+}
+.stars input:checked ~ label {
+    color: gold;
+}
+.c{
+position: absolute;
+   }
+
+@media screen and (min-width:0px) and (max-width:1025px) {
+    #flech_gauche{
+        display: none !important;
+    }
+    #flech_droite{
+        display: none !important;
+    }
+    #plats-cards{
+        justify-content: center !important;
+    }
+}
+
+
+
