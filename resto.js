@@ -156,7 +156,7 @@ document.getElementById("Heart_2").addEventListener("mouseleave",()=>{
 document.getElementById("Heart_3").addEventListener("mouseleave",()=>{
     Heart_3.style.color="black";
 })
-
+var ABC = document.getElementById("ABC");
 var PlatsCards = document.getElementById("plats-cards")
 var mohtawa = document.getElementById("mohtawa");
 if(screen.width<=1030){
@@ -164,4 +164,20 @@ if(screen.width<=1030){
   mohtawa.style.display="flex";
   mohtawa.style.justifyContent="center";
   mohtawa.style.alignItems="center";
+  ABC.style.background="#cab02233 !important";
+ }
+
+
+
+
+
+ var col0 = document.getElementById("col0");
+ if(screen.width<=881){
+    col0.style.background="#967fff29";
+    col0.style.width=540;
+    col0.style.margin=0;
+    col0.style.padding=8;
+
+
+
  }
