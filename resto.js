@@ -156,3 +156,12 @@ document.getElementById("Heart_2").addEventListener("mouseleave",()=>{
 document.getElementById("Heart_3").addEventListener("mouseleave",()=>{
     Heart_3.style.color="black";
 })
+
+var PlatsCards = document.getElementById("plats-cards")
+var mohtawa = document.getElementById("mohtawa");
+if(screen.width<=1030){
+    PlatsCards.style.display="none";
+  mohtawa.style.display="flex";
+  mohtawa.style.justifyContent="center";
+  mohtawa.style.alignItems="center";
+ }
