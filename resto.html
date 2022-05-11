@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="resto.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
-<body>
+<body id="body">
    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background:#fefff1!important;">
   <div class="container-fluid">
 <img src="ll.png" class="img-icon" id="img_icon" alt="">    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -141,9 +141,47 @@
   </div>
 
 
+<div id="mohtawa" style="display: none;">
+  <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel" >
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="piza1.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="birgar1.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>El walima</h5>
 
-
-
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="baget_farci1.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
   
 
 
@@ -159,23 +197,23 @@
 <div><i id="flech_gauche" class="bi bi-caret-left-square" style="font-size: 35px;color: #aa9c9c;cursor: pointer;"></i></div>
   <div class="card-food" style="display:inline-flex;margin-top: 25px;background: #f6f6f6;">
     
-    <div class="card-food1" style="width: 293px;margin-top: 10px;" >
+    <div class="card-food1" style="width:auto;margin-top: 10px;" >
     
       <div class="card-food1-img1" style="display: flex;">
-        <img src="brgr.png" alt="" style="width: auto;">
-        <div class="remises1" style="position: absolute;margin-top: 20px;margin-left: 14px;margin-bottom: 10px;width: 264px;" >
+        <img src="birgar1.png" alt="" style="width: 272px;margin-left: 0px;" id="birgar1">
+        <div class="remises1" style="position: absolute;margin-top: 20px;margin-left: 0px;margin-bottom: 10px;width: 264px;" >
           <span style="position: absolute;display: inline;background: #f1b727;width: 29%;border-top-right-radius: 50px;border-bottom-right-radius: 50px;padding-left: 15px;color: white;">-20%</span>
          <span style="background-color: #407E5C;width: 55%;
          display: block;border-top-right-radius: 5px;border-bottom-right-radius:5px;text-align: end;padding-right: 15px;color: white;">
           5 plats</span>
         </div>
-        <div class="remises2" style="position: absolute;margin-left: 14px;margin-bottom: 10px;width: 264px;margin-top: 54px;" >
+        <div class="remises2" style="position: absolute;margin-left: 0px;margin-bottom: 10px;width: 264px;margin-top: 54px;" >
           <span style="position: absolute;display: inline;background: #f1b727;width: 29%;border-top-right-radius: 50px;border-bottom-right-radius: 50px;padding-left: 15px;color: white;">-15%</span>
          <span style="background-color: #407E5C;width: 55%;
          display: block;border-top-right-radius: 5px;border-bottom-right-radius:5px;text-align: end;padding-right: 15px;color: white;">
           3 plats</span>
         </div> 
-        <div class="remises3" style="position: absolute;margin-left: 14px;margin-bottom: 10px;width: 264px;margin-top: 89px;" >
+        <div class="remises3" style="position: absolute;margin-left: 0px;margin-bottom: 10px;width: 264px;margin-top: 89px;" >
           <span style="position: absolute;display: inline;background: #f1b727;width: 29%;border-top-right-radius: 50px;border-bottom-right-radius: 50px;padding-left: 15px;color: white;">-10%</span>
          <span style="background-color: #407E5C;width: 55%;
          display: block;border-top-right-radius: 5px;border-bottom-right-radius:5px;text-align: end;padding-right: 15px;color: white;">
@@ -209,11 +247,11 @@
     
 
   <div class="card-food" style="display:inline-flex;margin-top: 25px;background: #f6f6f6;">
-    <div class="card-food1" style="width: auto;margin-top: 12px;" >
+    <div class="card-food1" style="width: auto;margin-top: 10px;" >
     
       <div class="card-food1-img1" style="display: flex;">
-        <img src="panini.png" alt="" style="width: auto;">
-        <div class="remises1" style="position: absolute;margin-top: 20px;margin-left: px;margin-bottom: 10px;width: 264px;" >
+        <img src="piza1.png" alt=""  style="width: 320px;margin-left: 0px;height: 230px;"   >
+        <div class="remises1" style="position: absolute;margin-top: 20px;margin-left: 0px;margin-bottom: 10px;width: 264px;" >
           <span style="position: absolute;display: inline;background: #f1b727;width: 29%;border-top-right-radius: 50px;border-bottom-right-radius: 50px;padding-left: 15px;color: white;">-20%</span>
          <span style="background-color: #407E5C;width: 55%;
          display: block;border-top-right-radius: 5px;border-bottom-right-radius:5px;text-align: end;padding-right: 15px;color: white;">
@@ -225,7 +263,7 @@
          display: block;border-top-right-radius: 5px;border-bottom-right-radius:5px;text-align: end;padding-right: 15px;color: white;">
           3 plats</span>
         </div> 
-        <div class="remises3" style="position: absolute;margin-left: px;margin-bottom: 10px;width: 264px;margin-top: 89px;" >
+        <div class="remises3" style="position: absolute;margin-left: 0px;margin-bottom: 10px;width: 264px;margin-top: 89px;" >
           <span style="position: absolute;display: inline;background: #f1b727;width: 29%;border-top-right-radius: 50px;border-bottom-right-radius: 50px;padding-left: 15px;color: white;">-10%</span>
          <span style="background-color: #407E5C;width: 55%;
          display: block;border-top-right-radius: 5px;border-bottom-right-radius:5px;text-align: end;padding-right: 15px;color: white;">
@@ -261,23 +299,23 @@
 
 
     <div class="card-food" style="display:inline-flex;margin-top: 25px;background: #f6f6f6;">
-      <div class="card-food1" style="width: 293px;margin-top: 12px;" >
+      <div class="card-food1" style="width: 273px;margin-top: 10px;" >
       
         <div class="card-food1-img1" style="display: flex;">
-          <img src="brgr.png" alt="" style="width: auto;">
-          <div class="remises1" style="position: absolute;margin-top: 20px;margin-left: 14px;margin-bottom: 10px;width: 264px;" >
+          <img src="baget_farci1.png" alt="" style="width: 272px;margin-left: 0px;">
+          <div class="remises1" style="position: absolute;margin-top: 20px;margin-left: 0px;margin-bottom: 10px;width: 264px;" >
             <span style="position: absolute;display: inline;background: #f1b727;width: 29%;border-top-right-radius: 50px;border-bottom-right-radius: 50px;padding-left: 15px;color: white;">-20%</span>
            <span style="background-color: #407E5C;width: 55%;
            display: block;border-top-right-radius: 5px;border-bottom-right-radius:5px;text-align: end;padding-right: 15px;color: white;">
             5 plats</span>
           </div>
-          <div class="remises2" style="position: absolute;margin-left: 14px;margin-bottom: 10px;width: 264px;margin-top: 54px;" >
+          <div class="remises2" style="position: absolute;margin-left: 0px;margin-bottom: 10px;width: 264px;margin-top: 54px;" >
             <span style="position: absolute;display: inline;background: #f1b727;width: 29%;border-top-right-radius: 50px;border-bottom-right-radius: 50px;padding-left: 15px;color: white;">-15%</span>
            <span style="background-color: #407E5C;width: 55%;
            display: block;border-top-right-radius: 5px;border-bottom-right-radius:5px;text-align: end;padding-right: 15px;color: white;">
             3 plats</span>
           </div> 
-          <div class="remises3" style="position: absolute;margin-left: 14px;margin-bottom: 10px;width: 264px;margin-top: 89px;" >
+          <div class="remises3" style="position: absolute;margin-left: 0px;margin-bottom: 10px;width: 264px;margin-top: 89px;" >
             <span style="position: absolute;display: inline;background: #f1b727;width: 29%;border-top-right-radius: 50px;border-bottom-right-radius: 50px;padding-left: 15px;color: white;">-10%</span>
            <span style="background-color: #407E5C;width: 55%;
            display: block;border-top-right-radius: 5px;border-bottom-right-radius:5px;text-align: end;padding-right: 15px;color: white;">
