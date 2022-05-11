@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Source+Serif+Pro:wght@600&family=Tapestry&display=swap" rel="stylesheet">
@@ -139,12 +140,26 @@
     <p id="services" style="color: #404c65;font-size: 35px;font-family: serif;text-align: center;">Nos Restauts populaires </p>
   </div>
 
-<div style="padding-bottom: 55px;display: flex;flex-flow: wrap;justify-content: space-evenly;">
 
 
 
+
+  
+
+
+
+
+
+
+
+
+
+<div id="plats-cards" style="padding-bottom: 55px;display:flex;flex-flow: wrap;justify-content: space-evenly;align-items: center;">
+
+<div><i id="flech_gauche" class="bi bi-caret-left-square" style="font-size: 35px;color: #aa9c9c;cursor: pointer;"></i></div>
   <div class="card-food" style="display:inline-flex;margin-top: 25px;background: #f6f6f6;">
-    <div class="card-food1" style="width: 293px;margin-top: 12px;" >
+    
+    <div class="card-food1" style="width: 293px;margin-top: 10px;" >
     
       <div class="card-food1-img1" style="display: flex;">
         <img src="brgr.png" alt="" style="width: auto;">
@@ -166,7 +181,7 @@
          display: block;border-top-right-radius: 5px;border-bottom-right-radius:5px;text-align: end;padding-right: 15px;color: white;">
           2 plats</span>
         </div> 
-    <div style="position: absolute;margin-top: 155px;margin-left: 185px;"><i class="bi bi-share"></i><i class="bi bi-heart"></i></div>    
+    <div style="position: absolute;margin-top: 155px;margin-left: 185px;"><i class="bi bi-share" id="share1" style="cursor: pointer;"></i><i class="bi bi-heart" id="Heart1" style="cursor: pointer;"></i></div>    
     
       </div> 
        <div class="header-card-food1">
@@ -174,10 +189,18 @@
        </div>
        <div class="header-card-main" style="margin-left: 15px;font-weight: bold;font-size: 15px;color: #8080806b;">
        <p>La spécialité du réstaurant</p>
-       <p>NJOUM</p>
+          <div style="margin-bottom: 6px">
+         <span><i class="bi bi-star-fill" id="S11" onclick="s11()"></i></span>
+         <span><i class="bi bi-star-fill" id="S21" onclick="s21()"></i></span>
+         <span><i class="bi bi-star-fill" id="S31" onclick="s31() "></i></span>
+         <span><i class="bi bi-star-fill" id="S41" onclick="s41()"></i></span>
+         <span><i class="bi bi-star-fill" id="S51" onclick="s51()"></i></span>
+          </div>
+        
+       
        <p><span><i class="bi bi-clock-fill"></i></span> 08:30-23:30
       <a href="#" style="text-decoration:none;"><span style="margin-left: 7px;"><i class="bi bi-geo-alt-fill"></i></span> Monastir</a>
-      <span style="margin-left: 7px;"><i class="bi bi-heart"></i></span>45
+      <span  style="margin-left: 7px;"><i class="bi bi-heart" style="cursor: pointer;"  id="Heart_1"></i></span> <b style="cursor: pointer;" id="text">45</b> 
       </p>
 </div> 
    </div>
@@ -190,25 +213,25 @@
     
       <div class="card-food1-img1" style="display: flex;">
         <img src="panini.png" alt="" style="width: auto;">
-        <div class="remises1" style="position: absolute;margin-top: 20px;margin-left: 14px;margin-bottom: 10px;width: 264px;" >
+        <div class="remises1" style="position: absolute;margin-top: 20px;margin-left: px;margin-bottom: 10px;width: 264px;" >
           <span style="position: absolute;display: inline;background: #f1b727;width: 29%;border-top-right-radius: 50px;border-bottom-right-radius: 50px;padding-left: 15px;color: white;">-20%</span>
          <span style="background-color: #407E5C;width: 55%;
          display: block;border-top-right-radius: 5px;border-bottom-right-radius:5px;text-align: end;padding-right: 15px;color: white;">
           5 plats</span>
         </div>
-        <div class="remises2" style="position: absolute;margin-left: 14px;margin-bottom: 10px;width: 264px;margin-top: 54px;" >
+        <div class="remises2" style="position: absolute;margin-left: 0px;margin-bottom: 10px;width: 264px;margin-top: 54px;" >
           <span style="position: absolute;display: inline;background: #f1b727;width: 29%;border-top-right-radius: 50px;border-bottom-right-radius: 50px;padding-left: 15px;color: white;">-15%</span>
          <span style="background-color: #407E5C;width: 55%;
          display: block;border-top-right-radius: 5px;border-bottom-right-radius:5px;text-align: end;padding-right: 15px;color: white;">
           3 plats</span>
         </div> 
-        <div class="remises3" style="position: absolute;margin-left: 14px;margin-bottom: 10px;width: 264px;margin-top: 89px;" >
+        <div class="remises3" style="position: absolute;margin-left: px;margin-bottom: 10px;width: 264px;margin-top: 89px;" >
           <span style="position: absolute;display: inline;background: #f1b727;width: 29%;border-top-right-radius: 50px;border-bottom-right-radius: 50px;padding-left: 15px;color: white;">-10%</span>
          <span style="background-color: #407E5C;width: 55%;
          display: block;border-top-right-radius: 5px;border-bottom-right-radius:5px;text-align: end;padding-right: 15px;color: white;">
           2 plats</span>
         </div> 
-    <div style="position: absolute;margin-top: 155px;margin-left: 185px;"><i class="bi bi-share"></i><i class="bi bi-heart"></i></div>    
+    <div style="position: absolute;margin-top: 155px;margin-left: 185px;"><i class="bi bi-share" id="share2" style="cursor: pointer;"></i><i class="bi bi-heart" id="Heart2"style="cursor: pointer;"></i></div>    
     
       </div> 
        <div class="header-card-food1">
@@ -216,10 +239,21 @@
        </div>
        <div class="header-card-main" style="margin-left: 15px;font-weight: bold;font-size: 15px;color: #8080806b;">
        <p>La spécialité du réstaurant</p>
-       <p>NJOUM</p>
+       
+       <div style="margin-bottom: 6px">
+        <span><i class="bi bi-star-fill" id="S12" onclick="s12()"></i></span>
+        <span><i class="bi bi-star-fill" id="S22" onclick="s22()"></i></span>
+        <span><i class="bi bi-star-fill" id="S32" onclick="s32()"></i></span>
+        <span><i class="bi bi-star-fill" id="S42" onclick="s42()"></i></span>
+        <span><i class="bi bi-star-fill" id="S52" onclick="s52()"></i></span>
+         </div>
+
+
+
+
        <p><span><i class="bi bi-clock-fill"></i></span> 08:30-23:30
       <a href="#" style="text-decoration:none;"><span style="margin-left: 7px;"><i class="bi bi-geo-alt-fill"></i></span> Monastir</a>
-      <span style="margin-left: 7px;"><i class="bi bi-heart"></i></span>45
+      <span style="margin-left: 7px;cursor: pointer;" id="Heart_2" ><i class="bi bi-heart"></i></span><b id="text2" style="cursor: pointer;">45</b> 
       </p>
 </div> 
    </div>
@@ -249,7 +283,7 @@
            display: block;border-top-right-radius: 5px;border-bottom-right-radius:5px;text-align: end;padding-right: 15px;color: white;">
             2 plats</span>
           </div> 
-      <div style="position: absolute;margin-top: 155px;margin-left: 185px;"><i class="bi bi-share"></i><i class="bi bi-heart"></i></div>    
+      <div style="position: absolute;margin-top: 155px;margin-left: 185px;"><i class="bi bi-share" style="cursor: pointer;" id="share3"></i><i  style="cursor:pointer;" class="bi bi-heart" id="Heart3"></i></div>    
       
         </div> 
          <div class="header-card-food1">
@@ -257,17 +291,29 @@
          </div>
          <div class="header-card-main" style="margin-left: 15px;font-weight: bold;font-size: 15px;color: #8080806b;">
          <p>La spécialité du réstaurant</p>
-         <p>NJOUM</p>
+      
+         <div style="margin-bottom: 6px">
+          <span><i class="bi bi-star-fill" onclick="s13 ()" id="S13"></i></span>
+          <span><i class="bi bi-star-fill" onclick="s23 ()" id="S23"></i></span>
+          <span><i class="bi bi-star-fill" onclick="s33 ()" id="S33"></i></span>
+          <span><i class="bi bi-star-fill" onclick="s43 ()" id="S43"></i></span>
+          <span><i class="bi bi-star-fill" onclick="s53()" id="S53"></i></span>
+           </div>
+
+
+
+
          <p><span><i class="bi bi-clock-fill"></i></span> 08:30-23:30
         <a href="#" style="text-decoration:none;"><span style="margin-left: 7px;"><i class="bi bi-geo-alt-fill"></i></span> Monastir</a>
-        <span style="margin-left: 7px;"><i class="bi bi-heart"></i></span>45
+        <span style="margin-left: 7px;"><i class="bi bi-heart" id="Heart_3" style="cursor: pointer;"></i></span> <b style="cursor: pointer;" id="text3">45</b> 
         </p>
   </div> 
      </div>
-      </div>
-  
-    </div>
-      
+     </div>
+     <div><i id="flech_droite" class="bi bi-caret-right-square" style="font-size: 35px;color: #aa9c9c;cursor: pointer;"></i></div>
+  </div>
+
+    
 
 
 
@@ -320,8 +366,9 @@
       <h3 style="font-family: fangsong;color: #404c65;">Téléchargez l'application</h3>
         <p  id="text">Farkito se lancera prochainement sur le marché de la restauration avec la volonté
           de bousculer ce secteur qui doit etre modernisé .</p>
-      <button><img src="googleplay.png" id="width-button" class="card-img-top" alt="..." style="border: none;height: 50px;width: 210px;"></button>
-      <button><img src="appstor.png" id="width-button" class="card-img-top" alt="..." style="border: none;height: 50px;width: 210px;"></button>
+          <a href="#"><button><img src="googleplay.png" id="width-button" class="card-img-top" alt="..." style="border: none;height: 50px;width: 210px;"></button></a>
+    <a href="#">          <button><img src="appstor.png" id="width-button" class="card-img-top" alt="..." style="border: none;height: 50px;width: 210px;"></button></a>
+    
         
         
         
@@ -389,7 +436,8 @@
     <h2>Restaurant Prés de Chez-vous</h2>
     <p><b>Farkito</b>se lancere prochainement sur le marché de la restorasition avec la volonté de bousculer 
       ce secteur qui doit etre modernisé</p>
-      <div><button style="background: #407f5c;color: white;border: none; height: 32px;width: 115px;border-radius: 5px;">SEE MAP</button></div> </span>
+      <div>
+        <a href="#">        <button style="background: #407f5c;color: white;border: none; height: 32px;width: 115px;border-radius: 5px;">SEE MAP</button></div> </span></a>
     </div>
 <div id="back_footer" style="background-color: #202d47a6; width: 100%;height: auto;">
   <div style="display: flex;justify-content: center;align-items: center;"><a style="margin-top: 10px;" href=""><img src="Rectangle 162.png" alt=""></a> 
@@ -413,23 +461,23 @@
   </span>
   <span id="b"  style="width: 248px;display: inline-block;height: 190px;margin-right: 0px;">
     <div id="b1" style="width: 80%;position: relative;left: 30px;top: 80px;font-size: 16px;font-family: emoji;">
-     <div><a href="#" style="text-decoration: none;color: white;" >Livraison</a></div>
-    <div><a href="#" style="text-decoration: none;color: white;">Clic and collect</a></div>
-    <div><a href="#" style="text-decoration: none;color: white;">Réservation</a></div>  
+     <div><a href="#" style="text-decoration: none;color: white;" >Livraison <span><i class="bi bi-truck"></i></span></a></div>
+    <div><a href="#" style="text-decoration: none;color: white;">Clic and collect <span><i class="bi bi-cart-plus"></i></span></a></div>
+    <div><a href="#" style="text-decoration: none;color: white;">Réservation <span><i class="bi bi-calendar2-date heading"></i></span></a></div>  
     </div>
    
   </span>
   <span id="c"  style="width: 220px;display: inline-block;height: 190px;margin-right: 40px;">
     <div style="width: 80%;position: relative;left: 0px;top: 79px;font-size: 16px;font-family: emoji;font-weight: bolder;">
-      <div><a href="#" style="text-decoration: none;color: white;" >216 71 45 23 26</a></div>
-     <div><a href="#" style="text-decoration: none;color: white;">Farkito@gmail.com</a></div>
-     <div><a href="#" style="text-decoration: none;color: white;">à Tunis.lafayette</a></div>  
+      <div><a href="tel:216 71 45 23 26" style="text-decoration: none;color: white;" >+216 71 45 23 26 <span><i class="bi bi-telephone-plus"></i></span></a></div>
+     <div><a href="mailto:Farkito@gmail.com" style="text-decoration: none;color: white;">Farkito@gmail.com <span><i class="bi bi-envelope"></i></span></a></div>
+     <div><a href="#" style="text-decoration: none;color: white;">à Tunis.lafayette <span><i class="bi bi-geo-alt"></i></span></a></div>  
      </div>
   </span>
   <span id="d"  style="width: 239px;display: inline-block;height: 190px;margin-right: 40px;">
   
     <div id="contentd" style="width: 80%;position: relative;left: 0px;top: 87px;font-size: 16px;font-family: 'Source Serif Pro';">
-      <div  style="text-align: center;"><a href="#" style="text-decoration: none;color: white;" >Suiver-nous sue :</a></div>
+      <div  style="text-align: center;text-decoration: none;color: white;">Suiver-nous sue :</div>
       <div  style="text-align: center;margin-top: 5px;font-family: monospace;">     
     <a href="#" style="text-decoration: none;color: white;"><img src="Facebook.png" alt=""></a>
     <a href="#" style="text-decoration: none;color: white;"><img src="Instagram.png" alt=""></a>
@@ -446,7 +494,8 @@
 
 
 
-
+<script src="resto.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
 </body>
 </html>
